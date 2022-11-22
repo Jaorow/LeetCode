@@ -7,13 +7,25 @@ class Solution:
         digits.split()
         li = []
         for i in digits:
-                li.append(dict[int(i)])
-        
-        final = []
-        for list in li:
-            
+            li.append(dict[int(i)])
         
         return li
 
 print(Solution.letterCombinations(Solution,"23"), " --> ", '["ad","ae","af","bd","be","bf","cd","ce","cf"]')
-print(Solution.letterCombinations(Solution,"234"))
+
+
+print(len(Solution.letterCombinations(Solution,"234")), " --> ", len(["adg","adh","adi","aeg","aeh","aei","afg","afh","afi","bdg","bdh","bdi","beg","beh","bei","bfg","bfh","bfi","cdg","cdh","cdi","ceg","ceh","cei","cfg","cfh","cfi"]))
+
+
+
+print(len(Solution.letterCombinations(Solution,"2344")), " --> ", len(["adgj","adgk","adgl","adhj","adhk","adhl","adij","adik","adil","aegj","aegk","aegl","aehj","aehk","aehl","aeij","aeik","aeil","afgj","afgk","afgl","afhj","afhk","afhl","afij","afik","afil","bdgj","bdgk","bdgl","bdhj","bdhk","bdhl","bdij","bdik","bdil","begj","begk","begl","behj","behk","behl","beij","beik","beil","bfgj","bfgk","bfgl","bfhj","bfhk","bfhl","bfij","bfik","bfil","cdgj","cdgk","cdgl","cdhj","cdhk","cdhl","cdij","cdik","cdil","cegj","cegk","cegl","cehj","cehk","cehl","ceij","ceik","ceil","cfgj","cfgk","cfgl","cfhj","cfhk","cfhl","cfij","cfik","cfil"]))
+print(Solution.letterCombinations(Solution,"234")," --> ", '["adg","adh","adi","aeg","aeh","aei","afg","afh","afi","bdg","bdh","bdi","beg","beh","bei","bfg","bfh","bfi","cdg","cdh","cdi","ceg","ceh","cei","cfg","cfh","cfi"]')
+
+
+        # length = len(digits)
+        # for i in li[0]:
+        #     count = 1
+        #     while count < length:
+        #         for j in li[count]:
+        #             print(i+j)
+        #         count += 1
