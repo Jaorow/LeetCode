@@ -1,6 +1,6 @@
 from ast import List
 
-# TODO look into pythons zip method
+# TODO look into pythons zip methods
 
 
 class Solution:
