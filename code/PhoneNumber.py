@@ -1,5 +1,7 @@
 from ast import List
 
+# TODO look into pythons zip method
+
 
 class Solution:
     def letterCombinations(self, digits: str):
