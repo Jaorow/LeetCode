@@ -1,7 +1,6 @@
 from ast import List
 
 # TODO look into pythons zip methods
-# who uses two s's 
 
 
 class Solution:
